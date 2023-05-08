@@ -9,10 +9,10 @@ while True:
         count+=1
         print("You had : " , count ,"gusses")
         break
-    elif user_number<pc_number and count<5:
+    elif user_number<pc_number:
         print("Aim higher...")
         count+=1
-    elif user_number>pc_number and count<5:
+    elif user_number>pc_number:
         print("come downnn")
         count+=1
     
