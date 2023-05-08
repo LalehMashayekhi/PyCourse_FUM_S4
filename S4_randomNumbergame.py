@@ -7,7 +7,7 @@ while True:
     if user_number==pc_number:
         print("Victoryyyy")
         count+=1
-        print("You had : " , count ,"gusses")
+        print("You had : " , count ,"guesses")
         break
     elif user_number<pc_number:
         print("Aim higher...")
